@@ -167,6 +167,11 @@ pub mod interface;
 pub mod page;
 pub mod prelude;
 
+pub use packed_struct;
+pub use embedded_time;
+pub use delegate;
+pub use frunk::{HCons, HNil};
+
 #[derive(Debug)]
 pub enum UsbHidError {
     WouldBlock,
